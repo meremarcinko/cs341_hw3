@@ -1,0 +1,90 @@
+<!---Meredith Marcinko--->
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheets/marcinko21.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script type="text/javascript" scr="javascripts/hw3_javascript.js"></script>
+
+ 
+</head>
+<body>
+
+<h1>Cheesecake Order Form</h1>
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Mondays_at_Il_Forno_-_Cheesecake_with_strawberry_sauce.jpg" 
+width="250" height="250">
+
+ 
+<table id="table">
+  <tr>
+    <!---headings for the title--->
+    <td>Quantity</td>
+    <td>Topping</td>
+  </tr>
+
+  <tr>
+    <td>
+      <!--dropdown menu-->
+      <select id="amount">
+        <option id="one" value="1">1</option>
+        <option id="two" value="2">2</option>
+        <option id="three" value="3">3</option>
+      </select>
+    </td>
+    <td>
+      <form>
+      <!--radio buttons-->
+      <input id="plain" type="radio" name="cheesecake" value="plain"> Plain<br>
+      <input id="cherry" type="radio" name="cheesecake" value="cherry"> Cherry<br>
+      <input id="chocolate" type="radio" name="cheesecake" value="chocolate"> Chocolate<br>
+      </form>
+    </td>
+  </tr>
+</table>
+
+
+<p id="notes">Notes:</p>
+  <textarea id="textarea" rows="4" cols="50">Enter any special instructions here.
+  </textarea>
+
+
+<br>
+<!--Order button-->
+
+<input type="submit" class="order" value="Order">
+
+
+<p2 id="notes">Orders for:</p2>
+<br>
+<!--dropdown menu for months-->
+<div class="dropdown">
+  <button id="drop" class="dropbtn">Jan</button>
+  <div class="dropdown-content">
+    <a class="month" href="#">Jan</a>
+    <a class="month" href="#">Feb</a>
+    <a class="month" href="#">Mar</a>
+    <a class="month" href="#">Apr</a>
+    <a class="month" href="#">May</a>
+    <a class="month" href="#">June</a>
+    <a class="month" href="#">July</a>
+    <a class="month" href="#">Aug</a>
+    <a class="month" href="#">Sep</a>
+    <a class="month" href="#">Oct</a>
+    <a class="month" href="#">Nov</a>
+    <a class="month" href="#">Dec</a>
+  </div>
+</div>
+		
+
+  <ul>
+    <li>11 cherry</li>
+    <li>17 chocolate</li>
+    <li>31 plain</li>
+  </ul>
+
+
+
+</body>
+</html>
